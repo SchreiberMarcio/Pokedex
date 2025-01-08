@@ -1,17 +1,31 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { DefaultLayout } from "../config/layout/DefaultLayout";
+
+
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <h1>Home</h1>,
+        element: (
+            <DefaultLayout>
+            
+            </DefaultLayout>
+        ),
     },
     {
         path: "/pokedex",
-        element: <h1>Login</h1>,
+        element: (
+            <DefaultLayout>
+
+            </DefaultLayout>),
     },
     {
-        path: "/register",
-        element: <h1>Register</h1>,
+        path: "/",
+        element: (
+            <DefaultLayout> 
+
+            </DefaultLayout>
+        )
     },
 ]);
 
