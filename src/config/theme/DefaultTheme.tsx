@@ -3,29 +3,29 @@ import { createTheme } from "@mui/material";
 export const theme = createTheme({
   palette: {
     primary: {
-      main: "#d89504aa",
+      main: "#006b42aa",
     },
     secondary: {
       main: "#808080",
     },
     text: {
-      primary: "#f93200",
-      secondary: "#ff0606",
+      primary: "#fafafa",
+      secondary: "#ffffff",
     },
     background: {
-      default: "#f4ea6a",
-      paper: "#e5c600bd",
+      default: "#000000",
+      paper: "#9e0091b8",
     },
   },
   components: {
     MuiButton: {
       styleOverrides: {
         root: {
-          backgroundColor: "#604500ae",
+          backgroundColor: "#006038ad",
           color: "#FFFFFF",
           fontWeight: "bolder",
           "&:hover": {
-            backgroundColor: "#ba7103bc",
+            backgroundColor: "#03ba49bb",
           },
         },
       },
@@ -46,8 +46,8 @@ export const theme = createTheme({
         root: {
           transition: "color 0.3s ease, transform 0.2s ease",
           "&:hover": {
-            color: "#ba7103bc", // Muda a cor do ícone ao passar o mouse
-            transform: "scale(1.2)", // Aumenta ligeiramente o ícone ao passar o mouse
+            color: "#ba7103bc", 
+            transform: "scale(1.2)", 
           },
         },
       },
