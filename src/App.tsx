@@ -1,13 +1,16 @@
+import { CssBaseline, ThemeProvider } from "@mui/material/";
+import { AppRoutes } from "./routes/AppRoutes";
+import { theme } from "./config/theme/DefaultTheme";
+import { Provider } from "react-redux";
+import { store } from "./store";
 
-
-function App() {
- 
-
+export default function App() {
   return (
-    <>
-    <h1>Ola mundo</h1>
-    </>
-  )
+    <Provider store={store}>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <AppRoutes />
+      </ThemeProvider>
+    </Provider>
+  );
 }
-
-export default App
