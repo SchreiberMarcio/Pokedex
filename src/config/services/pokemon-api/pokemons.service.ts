@@ -1,7 +1,7 @@
 import axios, { isAxiosError } from "axios";
 import { pokemonApi } from "./client-http";
 import { ResponseAPI } from "./response-api.interface";
-import { Pokemon } from "../../config/interfaces/pokemon.interface";
+import { Pokemon } from "../../interfaces/pokemon.interface";
 
 export async function getAllPokemonsServices(
   page: number,
