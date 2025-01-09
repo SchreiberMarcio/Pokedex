@@ -14,7 +14,7 @@ export function Footer() {
         textAlign="center"
         sx={{ mt: 3 }}
       >
-        Copyright &copy; Marcio Scheriber {new Date().getFullYear()}.
+        Copyright &copy; Marcio Schreiber {new Date().getFullYear()}.
       </Typography>
     </Container>
   );
