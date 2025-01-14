@@ -66,6 +66,6 @@ http://localhost:5173
 
 ## Link para contato:
 
-<a href="https://https://www.linkedin.com/in/marcioandreschreiber/">
+<a href="https://www.linkedin.com/in/marcioandreschreiber/">
     <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin" />
 </a>
