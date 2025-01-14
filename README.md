@@ -19,6 +19,7 @@
 </div>
 
 ### Tecnologias usadas 
+
 <div> 
     <img src="https://img.shields.io/badge/react-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black" alt="React"> 
     <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="React"> 
@@ -30,6 +31,7 @@
     <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="Git">
     <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white" alt="Visual Studio Code"> 
 </div>
+
 ## Como Rodar o Projeto
 
 1. Clone o repositório:
